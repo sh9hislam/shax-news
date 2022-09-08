@@ -86,12 +86,13 @@ padding-bottom: 40px;
 
 .main__box-container{
     display: flex;
+    gap: 15px;
     justify-content: space-between;
     background: #EDEDED;
 }
 .main-box{
     background: #EDEDED;
-    padding-bottom: 50px;
+ 
 }
 .main_right-tittle{
     font-size: 22px;
@@ -101,11 +102,11 @@ margin: 20px 0 30px 30px;
 }
 .main_right-text{
     font-size: 18px;
-line-height: 21px;
-font-family: "rr";
-color: #686868;
-margin-left: 30px;
-margin-bottom: 30px;
+    line-height: 21px;
+    color: #686868;
+    font-family: "RR";
+    margin-top: 30px;
+    max-width: 540px;
 }
 
 .footer{
@@ -130,3 +131,85 @@ color: #FFFFFF;
     color: #EF4423;
 }
 
+@media(max-width:1101px){
+    .header__nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .section{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        gap: 10px;
+       
+    }
+
+    .section__news-tittle{
+        text-align: center;
+    }
+    .content img {
+        width: 100%;
+    }
+    .main__box-container{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .main_right-tittle{text-align: center;}
+    .main_right-text{
+        margin: 0 auto;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:812px){
+    .header__nav-link{
+        font-size: 15px;
+    }
+    .main_right-tittle{
+        font-size: 19px;
+    }
+    .section__news-text{
+        font-size: 15px;
+    }
+    .section__news-tittle{
+        font-size: 18px;
+    }
+    .footer_right-link{
+        font-size: 15px;
+    }
+    .header__nav-list{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .footer_right-list{flex-direction: column;
+    
+    }
+    .main_left img{
+        width: 100%;
+    }
+
+    .footer_right-link{
+        font-size: 15px;
+    }
+    .main_right-text{
+        font-size: 16px;
+    }
+}
+@media(max-width:576px){
+    .section{
+        width: 70%;
+    }
+    .footer_right-list{
+        font-size: 14px;
+    }
+    .header__nav-list{
+        flex-direction: column;
+    }
+}
