@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "rb";
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    
+}
+.header__nav-list{
+    display: flex;
+    gap: 15px;
+}
+
+.header__nav-link{
+ font-size: 18px;
+line-height: 21px;
+color: #3A3838;
+font-family: "rb";
+}
+.header__nav-link:hover{
+    color: #EF4423;
+}
+
+.content{
+    padding-top: 15px;
+    padding-bottom: 36px;
+}
+.section{
+    display: flex;
+}
+.section__news:nth-of-type(1){
+    background: #B71C1C;
+}
+.section__news:nth-of-type(2){
+    background: #6A1B9A;
+}
+.section__news:nth-of-type(3){
+    background: #303F9F;
+}
+.section__news:nth-of-type(4){
+    background: #00695C;
+}
+.section__news-tittle{
+   font-family: "rb";
+font-size: 19px;
+line-height: 22px;
+color: #FFFFFF;
+margin: 7px 15px 8px 15px ;
+}
+.section__news-text{
+    font-size: 16px;
+line-height: 19px;
+font-family: "rr";
+color: #EBEBEB;
+margin: 7px 15px 8px 15px ;
+}
+.section__news-img{width: 100%;}
+
+
+.main__bottom-tittle{
+text-align: center;
+font-size: 22px;
+line-height: 26px;
+color: #3A3838;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.main__box-container{
+    display: flex;
+    justify-content: space-between;
+    background: #EDEDED;
+}
+.main-box{
+    background: #EDEDED;
+    padding-bottom: 50px;
+}
+.main_right-tittle{
+    font-size: 22px;
+line-height: 26px;
+color: #3A3838;
+margin: 20px 0 30px 30px;
+}
+.main_right-text{
+    font-size: 18px;
+line-height: 21px;
+font-family: "rr";
+color: #686868;
+margin-left: 30px;
+margin-bottom: 30px;
+}
+
+.footer{
+    background: #3A3838;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px 0 29px 0;
+    
+}
+.footer_right-list{
+    display: flex;
+    gap: 15px;
+}
+.footer_right-link{
+font-size: 18px;
+line-height: 21px;
+text-align: right;
+color: #FFFFFF;
+}
+.footer_right-link:hover{
+    color: #EF4423;
+}
+
